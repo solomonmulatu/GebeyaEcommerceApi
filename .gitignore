@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+node_modules/
+clientfront/
+client/
+frontend/
+uploads/
+public/
+config/default.json
