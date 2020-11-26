@@ -29,6 +29,7 @@
     "config": "^3.3.2"
   },
   "devDependencies": {
+    "eslint": "^7.14.0",
     "nodemon": "^1.19.4"
   }
 }

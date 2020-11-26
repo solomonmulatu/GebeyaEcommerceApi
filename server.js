@@ -23,8 +23,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.get('/', (req, res) => res.send('API Running'));
 
 // Define Routes
-// aman routes started here
 app.use('/api/users', require('./routes/api/user'));
+app.use('/api/product', require('./routes/api/product'));
 
 // Capture All 404 errors
 app.use(function (req, res, next) {
